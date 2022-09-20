@@ -2,6 +2,10 @@
 
 All notable changes to `url-signer` will be documented in this file
 
+## 1.2.3 - 2022-09-21
+
+- Fix bug when validating URL without a query
+
 ## 1.2.2 - 2021-04-20
 
 - add missing abstract method in the BaseUrlSigner (#35)
