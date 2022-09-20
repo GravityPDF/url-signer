@@ -9,6 +9,9 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/spatie/url-signer.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/url-signer)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/url-signer.svg?style=flat-square)](https://packagist.org/packages/spatie/url-signer)
 
+**Why was this library forked?**
+* The upstream v1.2.3 release bumped the minimum PHP version to 7.4. This fork maintains compatibility with PHP7.2+ while including the upstream bug fixes.
+
 This package can create URLs with a limited lifetime. This is done by adding an expiration date and a signature to the URL.
 
 ```php
